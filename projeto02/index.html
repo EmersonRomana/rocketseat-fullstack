@@ -7,6 +7,16 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 
+    <!-- Colocar imagem para url -->
+    <meta property="og:title" content="Página Local Turístico" />
+    <meta property="og:description" content="Página Local Turístico — Desafio Rocketseat Full Stack" />
+    <meta property="og:image" content="https://i.ibb.co/yvP9Pxv/url-site-turistico.jpg" />
+    <meta property="og:url" content="https://emersonromana.github.io/cupacake-receita-simples/" />
+    <!-- Tipo de conteúdo (obrigatório) -->
+    <meta property="og:type" content="website" />
+    <!-- ID do aplicativo do Facebook (obrigatório) -->
+    <meta property="fb:app_id" content="966242223397117" />
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,20 +30,22 @@
                     <h1>Conheça Busan</h1>
                 </div>
                 <div id="description">
-                    <img src="img/Image_01.jpg" alt="Vista de busan para uma ponte a noite com as luzes do dos edificios e o rio">
+                    <div id="img-one"></div>
                     <p>
                        Busan, a estrela em ascensão da Coreia do Sul, oferece de tudo, desde churrascarias de primeira linha até tradicionais barracas de comida de rua. Aqui, exploramos a segunda cidade da Coreia do Sul e descobrimos as suas ofertas culinárias. 
                     </p>
                 </div>
             </section>
-            <div class="border"></div>
-            <section id="list">
+            <div class="border-one"></div>
+            <section id="content-list">
                 <div id="start-card">
                     <p class="headline">Para os amantes de história</p>
                     <h2>Descubra 3 destinos imperdíveis em Busan</h2>
+                    <p>As atrações de Busan vão desde templos budistas centenários que pontilham as montanhas e o litoral da cidade até praias imaculadas com águas cristalinas. Esta cidade litorânea tem muitas coisas para fazer o ano todo - as famílias podem passar o tempo em um aquário à beira-mar, os compradores podem explorar bairros vibrantes e os amantes da natureza podem desfrutar de longas caminhadas até mirantes panorâmicos.
+                    Os santuários budistas que pontilham a costa e as montanhas de Busan têm uma arquitetura impressionante que irá encantar os fotógrafos.</p>
                 </div>
-                <div id="card-travel">
-                    <img src="" alt="">
+                <div class="card-travel">
+                    <div id="img-two"></div>
                     <h3>1. Templo Haedong Yonggungsa </h3>
                     <p>
                         O Templo Haedong Yonggungsa é um templo budista localizado no extremo nordeste de Busan. Construído em 1376, é um dos poucos templos na Coreia construídos à beira-mar – você pode desfrutar de vistas do Mar do Leste de um lado e de belas montanhas do outro.    
@@ -41,11 +53,12 @@
 
                     <p><strong>Bom para:</strong></p>
                     <ul>
-                        <li>・História</li>
+                        <li>História</li>
                     </ul>           
                 </div>
-                <div id="card-travel">
-                    <img src="img/Image_03.jpg" alt="Templo amrelo com uma vista de um monte atrás">
+                <div class="border-one"></div>
+                <div class="card-travel">
+                    <div id="img-three"></div>
                     <h3>2. Templo Beomeo-sa </h3>
                     <p>
                         O Templo Beomeo-sa é um dos maiores santuários da Coreia do Sul. Ele está localizado no alto da borda leste da montanha Geumjeongsa e fica distante da agitação da cidade. O Daeungjeon Hall do templo é um exemplo bem preservado da arquitetura da Dinastia Joseon.  
@@ -53,11 +66,12 @@
 
                     <p><strong>Bom para:</strong></p>
                     <ul>
-                        <li>・História</li>
+                        <li>História</li>
                     </ul>
                 </div>
-                <div id="card-travel">
-                    <img src="" alt="Templo no parque com detalhe asiatico antigo ">
+                <div class="border-one"></div>
+                <div class="card-travel">
+                    <div id="img-four"></div>
                     <h3>3. Parque Yongdusan </h3>
                     <p>
                         O Parque Yongdusan, localizado no centro de Busan, abriga alguns dos monumentos mais importantes da cidade. Você pode ver vistas espetaculares do topo da Torre Busan, de 120 metros de altura. O parque tem 2 museus – confira os instrumentos musicais tradicionais no Museum of World Folk Instruments e mais de 80 veleiros coreanos no Exhibition Hall of World Model Boats.   
@@ -65,9 +79,9 @@
 
                     <p><strong>Bom para:</strong></p>
                     <ul>
-                        <li>Casais</li>
-                        <li>Famílias</li>
-                        <li>Orçamento</li>
+                        <li id="c">Casais</li>
+                        <li id="f">Famílias</li>
+                        <li id="o">Orçamento</li>
                     </ul>
                 </div>
             </section>
@@ -77,5 +91,8 @@
             </div>
         </div>        
     </main>
+    <footer>
+        <p>Feito por RELVCODE para o Curso Rocketseat</p>
+    </footer>
 </body>
 </html>

@@ -43,10 +43,12 @@ body {
 
 main {
     width: 1120px;
-    margin: 88px auto 113px;
+    margin: 88px auto 48px;
     
 }
 
+
+/* Inicio do projeto capa  */
 .headline {
     color: var(--text-headline);
     font-weight: 700;
@@ -64,9 +66,185 @@ main {
     margin: 40px 0;
 }
 
-#description img {
-    width: 100%;
+#img-one {
+    background: url('./img/Image_01.jpg') no-repeat center / cover;
     height: 660px;
+    border-radius: 24px;
+    margin: 4px 0 24px;
+
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+}
+
+.border-one {
+    border: 1px solid var(--border-primary);
+    margin-top: 10px;
+}
+
+
+/* Secção de lista de lugares para Passeio */
+#start-card {
+    margin: 64px 0;
+}
+
+#start-card h2 {
+    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+p {
+    color: var(--text-secondary);
+}
+
+#img-two {
+    background: url("img/Image_02.jpg") no-repeat center / cover;
+    height: 350px;
     border-radius: 28px;
-    padding: 4px 0 24px  ;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 4px;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+p + p {
+    margin-top: 25px;
+}
+
+ul li {
+    margin-left: 30px;
+    color: var(--accent-blue);
+    font-weight: 700;
+}
+
+#c {
+    color: var(--accent-purple);
+}
+
+#f {
+    color: var(--accent-pink);
+}
+
+#o {
+    color: var(--accent-orange);
+}
+
+#img-three {
+    background: url("img/Image_03.jpg") no-repeat center / cover;
+    height: 350px;
+    border-radius: 28px;
+    margin: 48px 0 20px;
+}
+
+#img-four {
+    background: url("img/Image_04.jpg") no-repeat bottom center / cover;
+    height: 350px;
+    border-radius: 28px;
+    margin: 48px 0 20px;
+}
+
+
+/* Frase final */
+.border {
+    border: 1px solid var(--border-primary);
+    margin: 40px 0;
+}
+
+#phrase {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+
+/* Rodapé */
+footer > p {
+    text-align: center;
+    padding-bottom: 48px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+/* Tablet (até 1024px) */
+@media (max-width: 1024px) {
+  main {
+    width: 90%;
+    margin: 64px auto 48px;
+  }
+
+  #img-one,
+  #img-two,
+  #img-three,
+  #img-four {
+    height: 400px;
+  }
+
+  #title-page h1 {
+    font-size: 28px;
+  }
+
+  #start-card h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+/* Celular (até 768px) */
+@media (max-width: 768px) {
+  main {
+    width: 95%;
+    margin: 48px auto 32px;
+  }
+
+  #img-one,
+  #img-two,
+  #img-three,
+  #img-four {
+    height: 240px;
+    border-radius: 16px;
+  }
+
+  #title-page h1 {
+    font-size: 22px;
+  }
+
+  .headline {
+    font-size: 14px;
+  }
+
+  #start-card h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  ul li {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+
+  footer > p {
+    font-size: 12px;
+  }
 }

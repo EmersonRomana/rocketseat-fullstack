@@ -1,8 +1,8 @@
 # 📚 Formação Full‑Stack Rocketseat
 
-_A formação completa que transforma iniciantes em desenvolvedores Full Stack_
+_A formação completa  Full Stack_
 
-![Capa da Formação Full‑Stack Rocketseat](./assets/images/rocketseat_fullstack_capa.png)
+![Capa da Formação Full‑Stack Rocketseat](./img/banner.png)
 
 ## 🚀 Sobre o Curso
 
@@ -25,6 +25,19 @@ A Formação Full‑Stack da Rocketseat oferece uma trajetória de aprendizado d
 - Desenvolvimento de APIs e arquiteturas backend  
 - Interfaces modernas com React, criação de mobile apps  
 - Projetos práticos para turbinar o portfólio
+
+## 🧪 Projetos Desenvolvidos
+
+Durante a Formação Full‑Stack, foram desenvolvidos vários projetos práticos para aplicar os conceitos aprendidos. Abaixo, você encontra alguns deles com link direto para visualizar:
+
+### 🔹 Portal de Notícias com HTML e CSS Grid
+
+Página de portal de tecnologia com layout responsivo, utilizando `grid-template-areas`, `gap`, `grid-flow-col` e boas práticas semânticas. Ótimo para treinar estrutura de layout moderno.
+
+🔗 [Acessar projeto](https://emersonromana.github.io/tech-news/)
+
+---
+
 
 ## 📁 Como usar este projeto
 
